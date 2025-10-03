@@ -1,0 +1,13 @@
+2025-09-30 10:08:46.836 | INFO     | __main__:train:37 - Starting data processing and model training...
+2025-09-30 10:08:46.836 | INFO     | __main__:train:38 - Data path: /Users/zyaztec/DailyWork/建模代码整理/experiments/dataset/Exper-27-TRAIN-HFQ-FULL-25M5-M9-20250922
+2025-09-30 10:08:46.836 | INFO     | __main__:train:39 - Label columns: ['label_register', 'label_apply', 'label_credit', 'label_good']
+2025-09-30 10:16:51.900 | INFO     | __main__:train:43 - Data shape: (1930493, 400)
+2025-09-30 10:16:52.091 | INFO     | __main__:train:67 - After sampling Data shape: (1930493, 400)
+2025-09-30 10:16:52.091 | INFO     | __main__:train:69 - Target distribution:
+2025-09-30 10:16:52.096 | INFO     | __main__:train:71 -   label_register: {0: 1399993, 1: 530500}
+2025-09-30 10:16:52.100 | INFO     | __main__:train:71 -   label_apply: {0: 1832854, 1: 97639}
+2025-09-30 10:16:52.104 | INFO     | __main__:train:71 -   label_credit: {0: 1906770, 1: 23723}
+2025-09-30 10:16:52.108 | INFO     | __main__:train:71 -   label_good: {0: 1911209, 1: 19284}
+2025-09-30 10:16:52.109 | INFO     | __main__:train:98 - Number of tasks: 4, target columns: ['label_register', 'label_apply', 'label_credit', 'label_good']
+2025-09-30 10:16:52.109 | INFO     | __main__:train:99 - Number of features - Dense: 347, Fix sparse: 21, Varlen sparse: 7
+2025-09-30 10:16:52.109 | INFO     | __main__:train:101 - Hashing fix sparse features...
