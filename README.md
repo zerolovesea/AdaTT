@@ -2,7 +2,7 @@
 
 # AdaTT: Adaptive Task-to-Task Fusion Network for Multitask Learning
 
-**This project is a fork of [facebookresearch/AdaTT](https://github.com/facebookresearch/AdaTT), with additional adaptations for training and inference deployment, as well as extra feature engineering for industrial scenarios.**
+This project is a fork of [facebookresearch/AdaTT](https://github.com/facebookresearch/AdaTT), with additional adaptations for training and inference deployment, as well as extra feature engineering for industrial scenarios.
 
 
 AdaTT is a PyTorch-based library for multitask learning, focusing on recommendation and classification tasks. It implements the AdaTT architecture and several popular multitask learning baselines, providing a flexible and extensible framework for research and production.
